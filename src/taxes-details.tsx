@@ -167,14 +167,13 @@ export function TaxesDetails() {
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
   TableHead,
   TableHeader,
   TableRow,
 } from "@/views/components/ui/table";
+import { File } from "lucide-react";
 import { Button } from "./views/components/ui/button";
-import { CreditCard, File, Star } from "lucide-react";
 import { Checkbox } from "./views/components/ui/checkbox";
 
 const invoices = [
